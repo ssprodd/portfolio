@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif; /* Choose a clean and readable font */
+    margin: 0; /* Reset default margin */
+}
+
+header {
+    background-color: #f0f0f0; /* Light gray background for the header */
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333; /* Dark gray color for headings */
+}
+
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover 1  */
+}
+
+/* Add more styles as needed for specific elements */
