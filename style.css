@@ -1,29 +1,46 @@
 body {
-    font-family: sans-serif; /* Choose a clean and readable font */
-    margin: 0; /* Reset default margin */
+    font-family: sans-serif;
+    margin: 0;
 }
 
 header {
-    background-color: #f0f0f0; /* Light gray background for the header */
+    background-color: #f0f0f0;
     padding: 20px;
-    text-align: center;
+    text-align: center; /* Center align header content */
+}
+
+main {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
+    justify-content: center; /* Center align sections horizontally */
 }
 
 section {
+    width: 45%; /* Adjust width as needed */
+    margin: 10px;
     padding: 20px;
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 5px; /* Add rounded corners */
 }
 
 h1, h2 {
-    color: #333; /* Dark gray color for headings */
+    color: #333;
+    text-align: center; /* Center align headings */
 }
 
 a {
-    color: #007bff; /* Blue color for links */
-    text-decoration: none; /* Remove underlines from links */
+    color: #007bff;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Add underline on hover 1  */
+    text-decoration: underline;
 }
 
-/* Add more styles as needed for specific elements */
+/* Add more styles for responsiveness and specific elements */
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    section {
+        width: 90%; /* Make sections full width on smaller screens */
+    }
+}
