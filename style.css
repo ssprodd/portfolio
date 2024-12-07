@@ -61,16 +61,7 @@ a:hover {
 
 .project {
   cursor: pointer; /* Indicate that the section is clickable */
-   width: 45%;  Adjust width as needed */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
-  margin: 10px;
-  padding: 20px;
-  border: 1px solid #ddd; /* Add a subtle border */
-  border-radius: 10px;
-  overflow: hidden; /* Ensure the background image stays within the section */
-  background-image: url("tracking-1.jpg"); /* Replace with your image path 
-  background-size: cover;*/
-    background-size: 100% 100%;
+  background-image: url("tracking-1.jpg");
   background-position: center;
   color: white; /* Set text color to white for contrast */
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
@@ -85,5 +76,4 @@ a:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Increase shadow size and intensity */
 /*   transform: scale(1.02); Slightly increase the size on hover */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
-/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  Add a glow effect */
 }
