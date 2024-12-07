@@ -59,7 +59,9 @@ a:hover {
 
 .project {
   cursor: pointer; /* Indicate that the section is clickable */
-     width: 45%; /* Adjust width as needed */
+  /*  width: 45%;  Adjust width as needed */
+    width: 100%; /* Make the project section take full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
   margin: 10px;
   padding: 20px;
   border: 1px solid #ddd; /* Add a subtle border */
@@ -78,7 +80,7 @@ a:hover {
 }
 
 .project:hover {
-  transform: scale(1.05); /* Slightly increase the size on hover */
+  transform: scale(1.02); /* Slightly increase the size on hover */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a glow effect */
 }
