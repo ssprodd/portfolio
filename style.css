@@ -1,4 +1,7 @@
 body {
+   max-width: 1200px; /* Set the maximum width of the page content */
+  margin: 0 auto; /* Center the content within the viewport */
+  padding: 20px; /* Add some padding around the content */
     font-family: sans-serif;
     margin: 0;
 }
@@ -16,7 +19,7 @@ main {
 }
 
 section {
-    width: 35%; /* Adjust width as needed */
+    width: 45%; /* Adjust width as needed */
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd; /* Add a subtle border */
