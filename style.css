@@ -56,3 +56,21 @@ a:hover {
 .shadow {
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
 }
+
+.project {
+  cursor: pointer; /* Indicate that the section is clickable */
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden; /* Ensure the background image stays within the section */
+  background-image: url("path/to/your/image.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Set text color to white for contrast */
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
+}
+
+.project-content {
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+  padding: 20px;
+}
