@@ -59,11 +59,12 @@ a:hover {
 
 .project {
   cursor: pointer; /* Indicate that the section is clickable */
-  margin: 20px;
+     width: 45%; /* Adjust width as needed */
+  margin: 10px;
   padding: 20px;
   border-radius: 10px;
   overflow: hidden; /* Ensure the background image stays within the section */
-  background-image: url("path/to/your/image.jpg"); /* Replace with your image path */
+  background-image: url("tracking-1.jpg"); /* Replace with your image path */
   background-size: cover;
   background-position: center;
   color: white; /* Set text color to white for contrast */
