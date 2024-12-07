@@ -26,6 +26,25 @@
             display: block; 
             margin: 20px auto; 
         }
+        p {
+            text-align: justify; /* Justify text for a cleaner look */
+        }
+
+        ol {
+            list-style: none; /* Remove default list styling */
+            counter-reset: phase-counter; /* Initialize a counter */
+            padding: 0;
+        }
+
+        li {
+            counter-increment: phase-counter; /* Increment the counter for each list item */
+            margin-bottom: 20px;
+        }
+
+        li::before {
+            content: "Phase " counter(phase-counter) ": "; /* Display the counter before each list item */
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
