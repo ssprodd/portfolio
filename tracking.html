@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Total 1  Tracking Visibility</title>
+    <title>Total Tracking Visibility</title>
     <link rel="stylesheet" href="style.css"> 
     <style>
         body {
@@ -25,25 +25,40 @@
             height: auto;
             display: block; 
             margin: 20px auto; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+            border-radius: 5px; 
         }
+
+        h2 {
+            margin-top: 30px; 
+        }
+
         p {
-            text-align: justify; /* Justify text for a cleaner look */
+            text-align: justify; 
         }
 
         ol {
-            list-style: none; /* Remove default list styling */
-            counter-reset: phase-counter; /* Initialize a counter */
+            list-style: none; 
+            counter-reset: phase-counter;
             padding: 0;
         }
 
         li {
-            counter-increment: phase-counter; /* Increment the counter for each list item */
+            counter-increment: phase-counter;
             margin-bottom: 20px;
         }
 
         li::before {
-            content: "Phase " counter(phase-counter) ": "; /* Display the counter before each list item */
+            content: "Phase " counter(phase-counter) ": "; 
             font-weight: bold;
+        }
+
+        .results-container {
+            background-color: #f8f8f8; 
+            border: 1px solid #ddd; 
+            padding: 20px;
+            border-radius: 5px; 
+            margin-bottom: 20px; 
         }
     </style>
 </head>
@@ -100,16 +115,15 @@
         </li>
     </ol>
 
-
     <div class="results-container"> 
-    <h2>The Results: A Resounding Success</h2>
-    <p>Within a year, our comprehensive tracking strategy delivered remarkable results:</p>
-    <ul>
-        <li>Increased Tracking Success: We achieved a tracking rate of more than 90%, a significant improvement from our initial rate of less than 20%.</li>
-        <li>Improved Customer Satisfaction: Enhanced tracking capabilities led to a noticeable reduction in customer complaints and increased satisfaction scores.</li>
-        <li>New Revenue Generation: Our partnerships with NVOCCs generated a new revenue stream that exceeded initial projections by 20%.</li>
-    </ul>
-</div>
+        <h2>The Results: A Resounding Success</h2>
+        <p>Within a year, our comprehensive tracking strategy delivered remarkable results:</p>
+        <ul>
+            <li>Increased Tracking Success: We achieved a tracking rate of more than 90%, a significant improvement from our initial rate of less than 20%.</li>
+            <li>Improved Customer Satisfaction: Enhanced tracking capabilities led to a noticeable reduction in customer complaints and increased satisfaction scores.</li>
+            <li>New Revenue Generation: Our partnerships with NVOCCs generated a new revenue stream that exceeded initial projections by 20%.</li>
+        </ul>
+    </div>
 
 </body>
 </html>
