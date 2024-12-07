@@ -62,6 +62,7 @@ a:hover {
      width: 45%; /* Adjust width as needed */
   margin: 10px;
   padding: 20px;
+  border: 1px solid #ddd; /* Add a subtle border */
   border-radius: 10px;
   overflow: hidden; /* Ensure the background image stays within the section */
   background-image: url("tracking-1.jpg"); /* Replace with your image path */
@@ -79,4 +80,5 @@ a:hover {
 .project:hover {
   transform: scale(1.05); /* Slightly increase the size on hover */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a glow effect */
 }
