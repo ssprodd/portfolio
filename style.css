@@ -72,6 +72,11 @@ a:hover {
 }
 
 .project-content {
-  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent overlay */
+  background-color: rgba(0, 0, 0, 0.3); /* Add a semi-transparent overlay */
   padding: 20px;
+}
+
+.project:hover {
+  transform: scale(1.05); /* Slightly increase the size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
