@@ -12,12 +12,12 @@
     </header>
 
     <main>
-        <section id="about">
+        <section id="about"  class="fade-in shadow">
             <h2>About Me</h2>
             <p>A paragraph about yourself. Talk about your skills, experiences, and goals.</p>
         </section>
 
-        <section id="case-studies">
+        <section id="case-studies"  class="fade-in shadow">
             <h2>Case Studies</h2>
             <ul>
                 <li><a href="case-study-1.html">Case Study 1 Title</a></li>
@@ -25,12 +25,12 @@
                 </ul>
         </section>
 
-        <section id="interests">
+        <section id="interests"  class="fade-in shadow">
             <h2>Interests</h2>
             <p>Write about your interests. What are you passionate about outside of work?</p>
         </section>
 
-        <section id="projects">
+        <section id="projects"  class="fade-in shadow">
             <h2>Projects</h2>
             <ul>
                 <li><a href="project-1.html">Project 1 Title</a></li>
@@ -38,12 +38,12 @@
                 </ul>
         </section>
 
-        <section id="resume">
+        <section id="resume"  class="fade-in shadow">
             <h2>Resume</h2>
             <a href="resume.pdf" download>Download Resume</a>
         </section>
 
-        <section id="contact">
+        <section id="contact"  class="fade-in shadow">
             <h2>Connect With Me</h2>
             <ul>
                 <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
@@ -52,7 +52,7 @@
             </ul>
         </section>
 
-        <section id="booking">
+        <section id="booking"  class="fade-in shadow">
             <h2>Book an Appointment</h2>
             <p>You can add a booking link here, or embed a booking form if you have one.</p>
             <a href="your-booking-link" target="_blank">Book Now</a> 
@@ -62,5 +62,25 @@
     <footer>
         <p>&copy; 2023 Your Name</p>
     </footer>
+    <script>
+        // Function to add a fade-in animation to elements
+function fadeInElements() {
+  const elements = document.querySelectorAll('.fade-in');
+  elements.forEach(element => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          element.classList.add('show'); 1 
+          observer.unobserve(element);
+        }
+      });
+    });
+    observer.observe(element);
+  });
+}
+
+// Call the function when the page loads
+window.addEventListener('load', fadeInElements);
+    </script>
 </body>
 </html>
