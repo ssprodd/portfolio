@@ -80,7 +80,8 @@ a:hover {
 }
 
 .project:hover {
-  transform: scale(1.02); /* Slightly increase the size on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Increase shadow size and intensity */
+/*   transform: scale(1.02); Slightly increase the size on hover */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a glow effect */
+/*    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  Add a glow effect */
 }
