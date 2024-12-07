@@ -40,10 +40,7 @@ a:hover {
 /* Add more styles for responsiveness and specific elements */
 
 @media (max-width: 768px) { 
-    section {
-        width: 90%; 
-    }
-    .project { /* Specifically target the project section */
+    section,.project {
         width: 90%; 
     }
 }
