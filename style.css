@@ -82,7 +82,8 @@ a:hover {
 }
 
 .results-container {
-    background-color: #f8f8f8; /* Light background color */
+   width: 70%; 
+   background-color: #f8f8f8; /* Light background color */
     border: 1px solid #ddd; /* Subtle border */
     padding: 20px;
     border-radius: 5px; /* Rounded corners */
