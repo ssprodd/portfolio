@@ -97,7 +97,7 @@ button {
 
 .project, 
 .project1 {
-  width: 30%; /* Each project will take 50% of the container width */
+  width: 40%; /* Each project will take 50% of the container width */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
@@ -137,4 +137,8 @@ button {
 .contact-buttons button {
     margin-bottom: 10px; 
    font-weight: bold;
+}
+.river {
+  /* ... other styles ... */
+  margin-top: 20px; /* Add 20px space above the div */
 }
