@@ -179,7 +179,7 @@ button {
 }
 
 .contact-buttons button {
-  
+    margin-bottom: 20px; 
    font-weight: bold;
 }
 
