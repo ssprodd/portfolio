@@ -57,7 +57,6 @@ a:hover {
 
 
 .project {
-   max-width: 30%;
   cursor: pointer; /* Indicate that the section is clickable */
   background-image: url("tracking-1.jpg");
   background-position: center;
