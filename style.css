@@ -3,6 +3,9 @@ body {
   margin: 0 auto; /* Center the content within the viewport */
   padding: 20px; /* Add some padding around the content */
     font-family: sans-serif;
+    text-align: center; /* Center align header content */
+   justify-content: center; /* Center align sections horizontally */
+   align: center;
 }
 
 header {
