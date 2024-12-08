@@ -98,3 +98,21 @@ button {
     margin-bottom: 20px; /* Add spacing below the container */
    align: center;
 }
+
+.contact-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contact-info {
+    width: 45%; 
+}
+
+.contact-buttons {
+    width: 45%; 
+    text-align: right; 
+}
+
+.contact-buttons button {
+    margin-bottom: 10px; 
+}
