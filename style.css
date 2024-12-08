@@ -8,7 +8,7 @@ body {
 header {
 
     background-color: #f0f0f0;
-    width: 80%; /* Adjust width as needed */
+   max-width: 80%; /* Set the maximum width of the page content */
    margin: 0 auto; /* Center the content within the viewport */
     padding: 20px;
 }
