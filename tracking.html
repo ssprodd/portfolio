@@ -44,12 +44,12 @@
         }
 
         li {
-            counter-increment: phase-counter;
+
             margin-bottom: 20px;
         }
 
         li::before {
-            content: "Phase " counter(phase-counter) ": "; 
+    
             font-weight: bold;
         }
 
@@ -83,31 +83,26 @@
         My strategy unfolded in several phases:
     </p>
     <ol>
-        <li>
             <b>Phase 1: Quick Wins and Early Momentum (1 week)</b> 
             <p>
                 My first priority was to identify quick wins that could demonstrate progress and build momentum. Within a week, I implemented a solution to identify the underlying carriers used by NVOCCs, allowing us to leverage existing vendor APIs with carrier names instead of NVOCCs. This initial effort boosted our tracking rate to approximately 30%.
             </p>
-        </li>
-        <li>
+      
             <b>Phase 2: Expanding Reach Through Free APIs (6 weeks)</b>
             <p>
                 Recognizing the limitations of our existing vendor and the need for broader coverage, I initiated a project to integrate with major shipping lines using their free APIs. This involved navigating complex API documentation, managing different authentication mechanisms, and accounting for varying data structures across different shipping lines. To ensure data accuracy and prevent disruptions, we built a system of automated checks and alerts to flag any inconsistencies or anomalies, allowing for manual intervention when necessary. Within two weeks per carrier, we successfully integrated with three major shipping lines, covering 10% of our shipments and bringing the overall tracking rate to around 40%.
             </p>
-        </li>
-        <li>
+  
             <b>Phase 3: A New Vendor and a Transformative Integration (5 weeks)</b>
             <p>
                 While pursuing these short-term wins, I simultaneously conducted a thorough evaluation of potential tracking vendors. I identified a new vendor that offered improved accuracy at a lower cost. Their webhook functionality was a game-changer, allowing us to reduce API calls and significantly decrease expenses. To minimize disruption and ensure a smooth transition, I implemented a phased integration approach, starting with a pilot program for a single carrier. This allowed us to thoroughly test the integration, identify and address any issues, and refine our processes before rolling it out to other carriers. Through rigorous testing and validation, we successfully launched the full integration, resulting in a significant jump in our tracking rate to 68%.
             </p>
-        </li>
-        <li>
+   
             <b>Phase 4: Building a Robust Ecosystem (1-2 months)</b>
             <p>
                 Despite these improvements, a significant portion of our shipments still lacked tracking data. To address this, I spearheaded the development of a long-term solution focused on building a robust tracking ecosystem. This involved integrating data from various sources, including vessel tracking services, port authorities, and third-party providers, to gain a comprehensive view of shipment progress. We also developed a system to intelligently aggregate and validate data from multiple sources, prioritizing accuracy and cost-effectiveness.
             </p>
-        </li>
-        <li>
+    
             <b>Turning the Tide: Strategic Partnerships</b>
             <p>
                 Recognizing the mutual benefit of collaboration, I initiated strategic partnerships with NVOCCs. By offering them access to our enhanced tracking platform, we empowered them to improve their service offerings while simultaneously generating a new revenue stream for our company.
