@@ -57,7 +57,7 @@ a:hover {
 
 
 .project {
-   width: 35%;
+   max-width: 30%;
   cursor: pointer; /* Indicate that the section is clickable */
   background-image: url("tracking-1.jpg");
   background-position: center;
@@ -65,7 +65,7 @@ a:hover {
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
 }
 .project1 {
-   width: 35%;
+   max-width: 30%;
   cursor: pointer; /* Indicate that the section is clickable */
   background-image: url("tracking-1.jpg");
   background-position: center;
@@ -74,11 +74,11 @@ a:hover {
 }
 
 .project:hover {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 .project1:hover {
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
