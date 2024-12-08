@@ -10,6 +10,7 @@ header {
     padding: 20px;
     text-align: center; /* Center align header content */
    justify-content: center; /* Center align sections horizontally */
+   align: center;
 }
 
 main {
