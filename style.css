@@ -77,7 +77,7 @@ button {
 }
 .project1 {
   cursor: pointer; /* Indicate that the section is clickable */
-  background-image: url("invoice-processing.png");
+  background-image: url("vms.png");
   background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black overlay */
   color: white; /* Set text color to white for contrast */
