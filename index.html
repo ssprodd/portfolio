@@ -13,8 +13,9 @@
 
     <main>
          <section id="resume" class="fade-in" align="center">
-<li>   <button onclick="window.location.href='Swati Soni.pdf'" download>Download Resume</button> </li> 
-<li>     <button onclick="window.location.href='#contact'">Contact Me</button> </li> 
+<button onclick="window.location.href='Swati Soni.pdf'" download>Download Resume</button> 
+              <span style="margin: 0 10px;"></span>
+<button onclick="window.location.href='#contact'">Contact Me</button> 
 </section>
         <section id="about"  class="fade-in">
             <h2>About Me</h2>
@@ -51,14 +52,18 @@
 
 </section> 
 
+
+
         <section id="contact"  class="fade-in ">
             <h2>Connect With Me</h2>
-            <ul>
-                <li>Email: <a href="mailto:swati.soni@iiml.org">swati.soni@iiml.org</a></li>
-                <li>Phone: <a href="tel:+917880125373">+91-788-012-5373</a></li>
-            <li> <button onclick="window.open('https://www.linkedin.com/in/swatisoni22/', '_blank')">LinkedIn</button>
-       </li>   
-           <li>
+            <div class="contact-container">
+        <div class="contact-info">
+            <p>swati.soni@iiml.org</p>
+            <p>+91-78801 25373</p>
+        </div>
+            <div class="contact-buttons">
+            <button onclick="window.open('https://www.linkedin.com/in/swatisoni22/', '_blank')">LinkedIn</button>
+            <br>
 
                <!-- Google Calendar Appointment Scheduling begin -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
@@ -78,7 +83,8 @@
 </script>
 <!-- end Google Calendar Appointment Scheduling -->
             
-            </li> </ul>
+        </div>
+    </div>
         </section>
     </main>
 
