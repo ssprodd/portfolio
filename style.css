@@ -9,6 +9,8 @@ body {
 }
 
 header {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
     background-color: #f0f0f0;
     width: 80%; /* Adjust width as needed */
     margin: 10px;
@@ -157,4 +159,5 @@ button {
   /* ... other styles ... */
 margin: 10px;
    width: 80%;/* Add 20px space above the div */
+   align: center;
 }
