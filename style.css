@@ -97,7 +97,7 @@ button {
 
 .project, 
 .project1 {
-  width: 50%; /* Each project will take 50% of the container width */
+  width: 30%; /* Each project will take 50% of the container width */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
@@ -105,7 +105,7 @@ button {
 @media (max-width: 768px) { /* Adjust the breakpoint as needed */
   .project,
   .project1 {
-    width: 100%; /* Each project takes full width on smaller screens */
+    width: 90%; /* Each project takes full width on smaller screens */
   }
 }
 
