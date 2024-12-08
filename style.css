@@ -18,8 +18,7 @@ main {
 }
 
 section {
-    width: 35%; /* Adjust width as needed */
- 
+    width: 80%; /* Adjust width as needed */
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd; /* Add a subtle border */
@@ -29,8 +28,7 @@ section {
   font-size: 1rem; /* Adjust font size as needed */
 }
 
-  #resume{width: 80%; }
-   #projects{width: 80%; }
+
 h1, h2 {
     color: #333;
     text-align: center; /* Center align headings */
@@ -46,12 +44,6 @@ a:hover {
 }
 
 /* Add more styles for responsiveness and specific elements */
-
-@media (max-width: 768px) { 
-    section {
-        width: 80%; 
-    }
-}
 
 
 .fade-in {
