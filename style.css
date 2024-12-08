@@ -105,12 +105,14 @@ button {
   cursor: pointer; /* Indicate that the section is clickable */
   background-image: url("shiptrack.png");
   background-position: center;
+   font-weight: bold; 
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
 }
 .project1 {
   cursor: pointer; /* Indicate that the section is clickable */
   background-image: url("vms.png");
   background-position: center;
+   font-weight: bold; 
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
 }
 
