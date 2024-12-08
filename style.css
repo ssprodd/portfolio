@@ -134,6 +134,7 @@ button {
     border-radius: 5px; /* Rounded corners */
     margin-bottom: 20px; /* Add spacing below the container */
    align: center;
+   justify-content: center; /* Center align sections horizontally */
 }
 
 .contact-container {
