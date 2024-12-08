@@ -15,7 +15,8 @@ header {
 
 main {
 
-   
+    justify-content: center; /* Center align sections horizontally */
+   align: center;
    max-width: 80%; /* Set the maximum width of the page content */
    margin: 0 auto; /* Center the content within the viewport */
    
@@ -46,10 +47,6 @@ nav a:hover {
   color: white;
 }
 
-main {
-    display: flex; /* Use flexbox for layout */
-    flex-wrap: wrap; /* Allow sections to wrap on smaller screens */
-}
 
 section {
     width: 80%; /* Adjust width as needed */
