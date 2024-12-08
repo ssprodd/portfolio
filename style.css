@@ -9,6 +9,7 @@ header {
     background-color: #f0f0f0;
     padding: 20px;
     text-align: center; /* Center align header content */
+   justify-content: center; /* Center align sections horizontally */
 }
 
 main {
