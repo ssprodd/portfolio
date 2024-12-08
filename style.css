@@ -57,7 +57,7 @@ a:hover {
 
 
 .project {
-   width:35%;
+   width: 35%;
   cursor: pointer; /* Indicate that the section is clickable */
   background-image: url("tracking-1.jpg");
   background-position: center;
@@ -66,6 +66,7 @@ a:hover {
 }
 
 .project-content {
+   width: 35%;
   background-color: rgba(0, 0, 0, 0.05); /* Add a semi-transparent overlay */
   padding: 20px;
 }
@@ -84,4 +85,5 @@ a:hover {
     padding: 20px;
     border-radius: 5px; /* Rounded corners */
     margin-bottom: 20px; /* Add spacing below the container */
+   align: center;
 }
