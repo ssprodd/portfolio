@@ -106,14 +106,12 @@ button {
   background-image: url("shiptrack.png");
   background-position: center;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
-   opacity: 0.7; /* Adjust this value to control transparency */
 }
 .project1 {
   cursor: pointer; /* Indicate that the section is clickable */
   background-image: url("vms.png");
   background-position: center;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
-   opacity: 0.7; /* Adjust this value to control transparency */
 }
 
 .project:hover {
