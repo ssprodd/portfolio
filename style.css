@@ -182,6 +182,23 @@ button {
     margin-bottom: 10px; 
    font-weight: bold;
 }
+
+.contact-buttons a, /* Target the LinkedIn link */
+.contact-buttons button { /* Target the "Book a call" button */
+  /* ... your existing button styles ... */
+  text-decoration: none; /* Remove underline from the link */
+  color: #333; /* Same color as menu items */
+  padding: 10px 15px; /* Same padding as menu items */
+  border-radius: 5px; /* Same rounded corners as menu items */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add transitions for hover effect */
+}
+
+.contact-buttons a:hover,
+.contact-buttons button:hover {
+  background-color: #007bff; /* Same hover color as menu items */
+  color: white;
+}
+
 .river {
   /* ... other styles ... */
 margin: 10px;
