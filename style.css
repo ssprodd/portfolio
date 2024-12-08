@@ -44,6 +44,7 @@ a:hover {
 }
 /* Style all buttons to match the Google Calendar button */
 button {
+   font-weight: bold;
   background-color: #039BE5; /* Set the background color */
   color: white; /* Set the text color */
   border: none; /* Remove default border */
@@ -89,6 +90,25 @@ button {
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
 
+#projects {
+  display: flex; /* Enable flexbox layout for the projects section */
+  flex-wrap: wrap; /* Allow projects to wrap when the screen is resized */
+}
+
+.project, 
+.project1 {
+  width: 50%; /* Each project will take 50% of the container width */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) { /* Adjust the breakpoint as needed */
+  .project,
+  .project1 {
+    width: 100%; /* Each project takes full width on smaller screens */
+  }
+}
+
 .results-container {
    width: 60%; 
    background-color: #f8f8f8; /* Light background color */
@@ -111,8 +131,10 @@ button {
 .contact-buttons {
     width: 45%; 
     text-align: right; 
+   font-weight: bold;
 }
 
 .contact-buttons button {
     margin-bottom: 10px; 
+   font-weight: bold;
 }
