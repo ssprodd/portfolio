@@ -80,7 +80,7 @@ button {
   background-image: url("vms.png");
   background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black overlay */
-  color: white; /* Set text color to white for contrast */
+ 
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
    opacity: 0.7; /* Adjust this value to control transparency */
 }
@@ -106,8 +106,8 @@ button {
   width: 40%; /* Each project will take 50% of the container width */
   box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
-.project h2 { /* Targets h2 headings within elements with the class 'project' */
-  color: white; /* Sets the heading color to white */
+.project h3 { /* Targets h2 headings within elements with the class 'project' */
+ 
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow to the heading */
 }
 
@@ -150,6 +150,6 @@ button {
 }
 .river {
   /* ... other styles ... */
-
+margin: 10px;
    width: 80%;/* Add 20px space above the div */
 }
