@@ -19,6 +19,8 @@ main {
 
 section {
     width: 35%; /* Adjust width as needed */
+   #resume,width: 70%; 
+   #projects,width: 70%; 
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd; /* Add a subtle border */
@@ -46,7 +48,7 @@ a:hover {
 
 @media (max-width: 768px) { 
     section,.project {
-        width: 90%; 
+        width: 80%; 
     }
 }
 
@@ -82,7 +84,7 @@ a:hover {
 }
 
 .results-container {
-   width: 50%; 
+   width: 60%; 
    background-color: #f8f8f8; /* Light background color */
     border: 1px solid #ddd; /* Subtle border */
     padding: 20px;
