@@ -19,8 +19,7 @@ main {
 
 section {
     width: 35%; /* Adjust width as needed */
-   #resume,width: 70%; 
-   #projects,width: 70%; 
+ 
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd; /* Add a subtle border */
@@ -30,6 +29,8 @@ section {
   font-size: 1rem; /* Adjust font size as needed */
 }
 
+  #resume{width: 80%; }
+   #projects{width: 80%; }
 h1, h2 {
     color: #333;
     text-align: center; /* Center align headings */
@@ -47,7 +48,7 @@ a:hover {
 /* Add more styles for responsiveness and specific elements */
 
 @media (max-width: 768px) { 
-    section,.project {
+    section {
         width: 80%; 
     }
 }
