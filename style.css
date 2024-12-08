@@ -29,7 +29,7 @@ section {
 }
 
 
-h1, h2 {
+h1, h2,h3 {
     color: #333;
     text-align: center; /* Center align headings */
 }
@@ -71,7 +71,6 @@ button {
   background-image: url("tracking-1.png");
   background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black overlay */
-  color: white; /* Set text color to white for contrast */
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
    opacity: 0.7; /* Adjust this value to control transparency */
 }
@@ -80,7 +79,6 @@ button {
   background-image: url("vms.png");
   background-position: center;
     background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black overlay */
- 
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
    opacity: 0.7; /* Adjust this value to control transparency */
 }
