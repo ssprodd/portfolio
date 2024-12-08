@@ -65,20 +65,40 @@
             font-weight: bold;
         }
 
-        .results-container {
-            background-color: #f8f8f8; 
-            border: 1px solid #ddd; 
+       .highlights {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
             padding: 20px;
-            border-radius: 5px; 
-            margin-bottom: 20px; 
+            border-radius: 5px;
+            margin-bottom: 20px;
+            list-style: none;
+            padding: 0;
         }
+
+        .highlights li {
+            margin-bottom: 10px;
+        }
+
+        .highlights li::before {
+            content: "\2713"; /* Unicode character for checkmark */
+            color: green;
+            margin-right: 10px;
+        }
+         main {
+ max-width: 80%; /* Set the maximum width of the page content */
+   
+ 
+   margin: 0 auto; /* Center the content within the viewport */
+   
+}
     </style>
 </head>
 <body>
-
+<main>
     <h1>Total Tracking Visibility</h1> 
 
     <h2>The Challenge: A Tracking Crisis</h2>
+     
     <p>
         Our company faced a significant challenge: our shipment tracking rate had plummeted to below 20%. This decline was primarily driven by a surge in customer bookings with Non-Vessel Operating Common Carriers (NVOCCs), which accounted for nearly 50% of our shipments, particularly in the Less than Container Load (LCL) segment. In the price-sensitive freight forwarding industry, NVOCCs were gaining traction by offering lower rates, but they often lacked the technology to provide adequate tracking information. This posed a serious threat to our competitive advantage, as we prided ourselves on offering superior tracking capabilities. Furthermore, the lack of comprehensive tracking data led to reduced customer satisfaction and potential revenue loss, as clients increasingly demanded visibility into their shipments.
     </p> 
@@ -122,17 +142,17 @@
         </li>
     </ol>
 
-    <div class="results-container"> 
+   
         <h2>The Results: A Resounding Success</h2>
         <p>Within a year, our comprehensive tracking strategy delivered remarkable results:</p>
-        <ul>
+        <ul class="highlights">
             <li><b>Increased Tracking Success:</b> We achieved a tracking rate of more than 90%, a significant improvement from our initial rate of less than 20%.</li>
             <li><b>Improved Customer Satisfaction:</b> Enhanced tracking capabilities led to a noticeable reduction in customer complaints and increased satisfaction scores.</li>
             <li><b>New Revenue Generation:</b> Our partnerships with NVOCCs generated a new revenue stream that exceeded initial projections by 20%.</li>
             <li><b>Enhanced Business Strategy:</li></b> The improved tracking system provided valuable data insights that informed and optimized our overall business strategy.</li> 
        
         </ul>
-    </div>
-
+   
+</main>
 </body>
 </html>
