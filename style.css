@@ -14,9 +14,8 @@ header {
 }
 
 main {
-
-    justify-content: center; /* Center align sections horizontally */
-   align: center;
+ max-width: 80%; /* Set the maximum width of the page content */
+   
  
    margin: 0 auto; /* Center the content within the viewport */
    
