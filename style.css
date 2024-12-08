@@ -140,5 +140,6 @@ button {
 }
 .river {
   /* ... other styles ... */
-  margin-top: 20px; /* Add 20px space above the div */
+  margin-top: 20px;
+   width: 80%;/* Add 20px space above the div */
 }
