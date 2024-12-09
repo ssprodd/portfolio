@@ -182,7 +182,7 @@ button {
 /* Media query for smaller screens */
 @media (max-width: 768px) { /* Adjust the breakpoint as needed */
   .project,
-  .project1 {
+  .project1, .nproject {
     width: 90%; /* Each project takes full width on smaller screens */
   }
 }
@@ -204,7 +204,7 @@ button {
 }
 
 .project-image {
-  width: 200px;
+  width: 80px;
   margin-right: 20px;
 }
 
