@@ -101,7 +101,7 @@ section {
     border-radius: 5px; /* Add rounded corners */
     line-height: 1.4;  /* Increase line spacing for better readability */
   font-weight: normal; /* Remove bold styling from the text */
-  font-size: 0.8 rem; /* Adjust font size as needed */
+  font-size: 20px ; /* Adjust font size as needed */
     display: flex; /* Enable flexbox layout for the projects section */
   flex-wrap: wrap; /* Allow projects to wrap when the screen is resized */
    justify-content: center; /* Center align sections horizontally */
@@ -129,7 +129,7 @@ button {
   color: white; /* Set the text color */
   border: none; /* Remove default border */
   padding: 10px 10px; /* Add padding */
-  font-size: 13px; /* Adjust font size as needed */
+  font-size: 14px; /* Adjust font size as needed */
   cursor: pointer; /* Show pointer cursor on hover */
   border-radius: 5px; /* Add rounded corners 1  */
 }
@@ -220,7 +220,7 @@ margin: 10px;
 .poem-tile {
     width: 25%; /* Adjust as needed for desired tile size */
     margin-bottom: 5px;
-    font-size: 10px; 
+    font-size: 14px; 
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
