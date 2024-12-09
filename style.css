@@ -210,3 +210,18 @@ button {
 margin: 10px;
    width: 80%;/* Add 20px space above the div */
 }
+
+.poetry-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.poem-tile {
+    width: 48%; /* Adjust as needed for desired tile size */
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate that the tile is clickable */
+}
