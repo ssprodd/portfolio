@@ -218,10 +218,11 @@ margin: 10px;
 }
 
 .poem-tile {
-    width: 48%; /* Adjust as needed for desired tile size */
+    width: 30; /* Adjust as needed for desired tile size */
     margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
+   background-color: #aaa; /* Set the background color */
     cursor: pointer; /* Indicate that the tile is clickable */
 }
