@@ -142,6 +142,7 @@ button {
   background-position: center;
    font-weight: bold; 
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
+   transition: box-shadow 0.3s ease;
 }
 .project1 {
   cursor: pointer; /* Indicate that the section is clickable */
@@ -149,6 +150,7 @@ button {
   background-position: center;
    font-weight: bold; 
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for readability */
+   transition: box-shadow 0.3s ease;
 }
 
 .project:hover {
@@ -230,11 +232,13 @@ margin: 10px;
     cursor: pointer; /* Indicate that the tile is clickable */
    background-color: #e0f7fa; /* Sweet powder blue color */
     color: #333; /* Dark text color for readability */
+   transition: box-shadow 0.3s ease;
 }
 
 
 .poem-tile:hover {
-    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
