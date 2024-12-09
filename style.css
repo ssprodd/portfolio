@@ -220,8 +220,10 @@ margin: 10px;
 
 .poem-tile {
     width: 25%; /* Adjust as needed for desired tile size */
+    cursor: pointer; /* Indicate that the section is clickable */
     margin-bottom: 5px;
     font-size: 14px; 
+   font-weight: bold;
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -229,3 +231,10 @@ margin: 10px;
    background-color: #e0f7fa; /* Sweet powder blue color */
     color: #333; /* Dark text color for readability */
 }
+
+
+.poem-tile:hover {
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
