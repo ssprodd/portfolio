@@ -187,41 +187,6 @@ button {
   }
 }
 
-.nproject {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.nproject:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.project-image {
-  width: 80px;
-  margin-right: 20px;
-}
-
-.project-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-.project-content {
-  flex: 1;
-}
-
-.project-content h2 {
-  margin-bottom: 10px;
-}
-
 .contact-container {
     display: flex;
     justify-content: space-between; 
