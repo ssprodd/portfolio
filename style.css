@@ -101,11 +101,12 @@ section {
     border-radius: 5px; /* Add rounded corners */
     line-height: 1.4;  /* Increase line spacing for better readability */
   font-weight: normal; /* Remove bold styling from the text */
-  font-size: 20px ; /* Adjust font size as needed */
+  font-size: 17px ; /* Adjust font size as needed */
     display: flex; /* Enable flexbox layout for the projects section */
   flex-wrap: wrap; /* Allow projects to wrap when the screen is resized */
    justify-content: center; /* Center align sections horizontally */
    align: center;
+  background-color: #f8f8f8; /* Light gray */
 }
 
 
