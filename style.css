@@ -139,7 +139,6 @@ button {
 .experience-container {
     display: flex;
     flex-direction: column; /* Align items vertically */
-   
     align-items: center; /* Center the items horizontally */
 }
 
@@ -175,7 +174,7 @@ button {
 }
 
 .company-logo img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 
