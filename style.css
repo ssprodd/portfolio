@@ -159,6 +159,7 @@ button {
 }
 .expanded-details {
     display: none; /* Initially hide the expanded details */
+   flex-grow: 1;
 }
 .experience-details {
     flex-grow: 1;
