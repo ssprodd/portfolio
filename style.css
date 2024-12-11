@@ -182,7 +182,7 @@ button {
 }
 
 .read-more {
-    color: blue;
+    color: light blue;
     cursor: pointer;
     font-weight: bold;
     display: block; /* Ensure it takes full width */
@@ -200,7 +200,7 @@ button {
 .education-item {
     display: flex;
     align-items: center;
-    width: 45%; /* Adjust width as needed */
+    width: 40%; /* Adjust width as needed */
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
