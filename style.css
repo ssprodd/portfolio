@@ -169,7 +169,7 @@ button {
 }
 
 .company-logo {
-    width: 100px; /* Increased logo width */
+    width: 80px; /* Increased logo width */
     margin-right: 20px;
     align-self: flex-start; /* Align logo to the top */
 }
