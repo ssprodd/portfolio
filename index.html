@@ -49,8 +49,6 @@
       </div>
     </div>
 
-    </div>
-
     <div class="experience-item">
       <div class="company-logo">
         <img src="path/to/company1-logo.png" alt="Company 1 Logo">
@@ -64,24 +62,6 @@
         </div>
         <span class="read-more" onclick="toggleDetails(this)">...Read More</span>
       </div>
-    </div>
-
-    </div>
-
-    <div class="experience-item">
-      <div class="company-logo">
-        <img src="path/to/company1-logo.png" alt="Company 1 Logo">
-      </div>
-      <div class="experience-details">
-        <h3>Company 1</h3>
-        <p>Your role and a brief description of your experience at Company 1.</p>
-        <div class="expanded-details">
-          <p>More detailed information about your experience at Company 1. This section is initially hidden.</p>
-          <span class="read-more" onclick="toggleDetails(this)">Read Less</span>
-        </div>
-        <span class="read-more" onclick="toggleDetails(this)">...Read More</span>
-      </div>
-    </div>
 
     </div>
 
@@ -100,16 +80,28 @@
       </div>
     </div>
 
-
-
+    <div class="experience-item">
+      <div class="company-logo">
+        <img src="path/to/company1-logo.png" alt="Company 1 Logo">
+      </div>
+      <div class="experience-details">
+        <h3>Company 1</h3>
+        <p>Your role and a brief description of your experience at Company 1.</p>
+        <div class="expanded-details">
+          <p>More detailed information about your experience at Company 1. This section is initially hidden.</p>
+          <span class="read-more" onclick="toggleDetails(this)">Read Less</span>
+        </div>
+        <span class="read-more" onclick="toggleDetails(this)">...Read More</span>
+      </div>
+    </div>
   </div>
 </section>
 
 <script>
   function toggleDetails(element) {
-    const expandedDetails = element.nextElementSibling;
+    const expandedDetails = element.previousElementSibling;
     expandedDetails.style.display = expandedDetails.style.display === 'block' ? 'none' : 'block';
-    element.textContent = expandedDetails.style.display === 'block' ? 'Read Less' : 'Read More...';
+    element.textContent = expandedDetails.style.display === 'block' ? 'Read More...' : 'Read Less';
   }
 </script>
         
