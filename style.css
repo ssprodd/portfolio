@@ -160,7 +160,7 @@ button {
 .experience-details {
     flex-grow: 1;
     text-align: left; /* Left align the company name and details */
-   display: none; /* Initially hide the expanded details */
+
     margin-top: 10px; /* Space above the expanded details */
 }
 
