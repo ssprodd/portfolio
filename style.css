@@ -151,6 +151,7 @@ button {
     padding: 20px;
     border-radius: 10px;
     background-color: #f0f5f5; /* Add background color */
+   margin-bottom: 20px;
 }
 
 .experience-details h3 {
@@ -160,7 +161,7 @@ button {
 .expanded-details {
     display: none; /* Initially hide the expanded details */
    flex-grow: 1;
-   width: 80%;
+   width: 100%;
 }
 .experience-details {
     flex-grow: 1;
