@@ -150,7 +150,7 @@ button {
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
-    background-color: #f8f8f8; /* Add background color */
+    background-color: #f0f5f5; /* Add background color */
 }
 
 .experience-details h3 {
@@ -187,6 +187,49 @@ button {
     font-weight: bold;
     display: block; /* Ensure it takes full width */
     margin-top: 10px; /* Space above the link */
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f5f5;
+}
+
+.institute-logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.institute-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.education-details {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.education-details h3 {
+    margin-bottom: 5px;
+}
+
+.degree,
+.year,
+.grade {
+    font-size: 0.9em;
+    color: #666;
 }
 
 .project {
