@@ -182,7 +182,7 @@ button {
 }
 
 .read-more {
-    color: #ADD8E6;
+    color: #6495ED;
     cursor: pointer;
     font-weight: bold;
     display: block; /* Ensure it takes full width */
@@ -232,7 +232,7 @@ button {
 .education-details h3 {
     margin-bottom: 5px;
    width:100%;
-   font-size: 14px; 
+   font-size: 15px; 
 }
 
 .degree,
