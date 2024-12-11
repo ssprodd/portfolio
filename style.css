@@ -153,8 +153,9 @@ button {
 }
 
 .company-logo {
-    width: 100px; /* Adjust logo size as needed */
-    margin-right: 20px; /* Space between logo and details */
+    width: 120px; /* Increased logo width */
+    margin-right: 20px;
+    align-self: flex-start; /* Align logo to the top */
 }
 
 .company-logo img {
