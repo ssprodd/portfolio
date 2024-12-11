@@ -191,19 +191,27 @@ button {
 
 .education-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Arrange items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center align items horizontally */
     gap: 20px;
-    align-items: center;
 }
 
 .education-item {
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 45%; /* Adjust width as needed */
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
     background-color: #f0f5f5;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .education-item {
+        width: 100%; /* Each item takes full width on smaller screens */
+    }
 }
 
 .institute-logo {
