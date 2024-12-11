@@ -164,11 +164,11 @@ button {
 }
 .experience-details {
     flex-grow: 1;
-   width: 80%;
+   width: 90%;
 }
 
 .company-logo {
-    width: 80px; /* Increased logo width */
+    width: 70px; /* Increased logo width */
     margin-right: 20px;
     align-self: flex-start; /* Align logo to the top */
 }
@@ -180,7 +180,7 @@ button {
 
 .role,
 .duration {
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #666; /* Slightly lighter color for role and duration */
 }
 
