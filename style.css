@@ -101,7 +101,7 @@ section {
     border-radius: 5px; /* Add rounded corners */
     line-height: 1.4;  /* Increase line spacing for better readability */
   font-weight: normal; /* Remove bold styling from the text */
-  font-size: 17px ; /* Adjust font size as needed */
+  font-size: 15px ; /* Adjust font size as needed */
     display: flex; /* Enable flexbox layout for the projects section */
   flex-wrap: wrap; /* Allow projects to wrap when the screen is resized */
    justify-content: center; /* Center align sections horizontally */
@@ -139,13 +139,17 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+   justify-content: center; /* Center align sections horizontally */
+   align: center;
 }
 
 .experience-item {
-  width: calc(50% - 10px); /* Two items per row with spacing */
+  width: 40px; /* Two items per row with spacing */
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 10px;
+    font-weight: normal; /* Remove bold styling from the text */
+  font-size: 15px ; /* Adjust font size as needed */
 }
 
 .company-logo {
