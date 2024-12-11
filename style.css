@@ -144,12 +144,24 @@ button {
 }
 
 .experience-item {
-    display: flex; /* Use flexbox for layout */
-    align-items: center; /* Vertically align items */
-    width: 80%; /* Adjust width as needed */
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    width: 80%;
     border: 1px solid #ddd;
     padding: 20px;
     border-radius: 10px;
+    background-color: #f8f8f8; /* Add background color */
+}
+
+.experience-details h3 {
+    margin-bottom: 5px; /* Space between company name and role */
+}
+
+.experience-details {
+    flex-grow: 1;
+    text-align: left; /* Left align the company name and details */
+   display: none; /* Initially hide the expanded details */
+    margin-top: 10px; /* Space above the expanded details */
 }
 
 .company-logo {
@@ -161,14 +173,6 @@ button {
 .company-logo img {
     width: 100%;
     height: auto;
-}
-
-.experience-details {
-    flex-grow: 1; /* Allow details to take up available space */
-}
-
-.experience-details h3 {
-    margin-bottom: 5px; /* Space between company name and role */
 }
 
 .role,
@@ -183,11 +187,6 @@ button {
     font-weight: bold;
     display: block; /* Ensure it takes full width */
     margin-top: 10px; /* Space above the link */
-}
-
-.expanded-details {
-    display: none; /* Initially hide the expanded details */
-    margin-top: 10px; /* Space above the expanded details */
 }
 
 .project {
