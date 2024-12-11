@@ -147,12 +147,11 @@ button {
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 10px;
+     display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically align items */
+  /* ... other styles ... */
 }
 
-.company-logo {
-  width: 80px; 
-  margin-bottom: 10px;
-}
 
 .company-logo img {
   width: 100%;
@@ -165,8 +164,15 @@ button {
   font-weight: bold;
 }
 
-.expanded-details {
-  display: none; 
+.company-logo {
+  /* ... other styles ... */
+  margin-right: 20px; /* Add space between logo and company name */
+}
+
+.experience-details {
+  /* ... other styles ... */
+  text-align: center; /* Center align the company name and other details */
+  flex-grow: 1; /* Allow the details section to take up available space */
 }
 .project {
   cursor: pointer; /* Indicate that the section is clickable */
