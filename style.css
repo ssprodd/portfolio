@@ -160,9 +160,11 @@ button {
 .expanded-details {
     display: none; /* Initially hide the expanded details */
    flex-grow: 1;
+   width: 80%;
 }
 .experience-details {
     flex-grow: 1;
+   width: 80%;
 }
 
 .company-logo {
