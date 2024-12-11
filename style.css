@@ -139,7 +139,7 @@ button {
 .experience-container {
     display: flex;
     flex-direction: column; /* Align items vertically */
-    gap: 20px; /* Spacing between items */
+   
     align-items: center; /* Center the items horizontally */
 }
 
