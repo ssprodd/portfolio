@@ -233,6 +233,7 @@ button {
     margin-bottom: 5px;
    width:100%;
    font-size: 15px; 
+    text-align: left; /* Left align the company name and details */
 }
 
 .degree,
@@ -240,6 +241,7 @@ button {
 .grade {
     font-size: 0.9em;
     color: #666;
+    font-weight: bold; 
 }
 
 .project {
