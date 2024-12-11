@@ -155,13 +155,13 @@ button {
 
 .experience-details h3 {
     margin-bottom: 5px; /* Space between company name and role */
+    text-align: left; /* Left align the company name and details */
 }
 .expanded-details {
     display: none; /* Initially hide the expanded details */
 }
 .experience-details {
     flex-grow: 1;
-    text-align: left; /* Left align the company name and details */
 }
 
 .company-logo {
