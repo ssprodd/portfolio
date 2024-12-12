@@ -19,15 +19,16 @@ main {
 }
 
 nav ul {
-  /* ... other styles ... */
-  display: flex; /* Enable flexbox for the menu */
-  gap: 15px; /* Add space between menu items */
-   list-style: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
+nav li {
+  display: inline-block;
+  margin: 0 30px;
+}
 
 nav a {
   text-decoration: none;
@@ -55,7 +56,6 @@ nav a:hover {
 
         p {
             text-align: justify; 
-           font-size: 0.9em;
         }
 
         ol {
@@ -180,7 +180,7 @@ button {
 
 .role,
 .duration {
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #666; /* Slightly lighter color for role and duration */
 }
 
@@ -308,7 +308,6 @@ text-align: left;
 
 .contact-info {
     width: 45%; 
-   text-align:left;
 }
 
 .contact-buttons {
@@ -327,4 +326,32 @@ text-align: left;
   /* ... other styles ... */
 margin: 10px;
    width: 80%;/* Add 20px space above the div */
+}
+
+.poetry-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.poem-tile {
+    width: 25%; /* Adjust as needed for desired tile size */
+    cursor: pointer; /* Indicate that the section is clickable */
+    margin-bottom: 5px;
+    font-size: 14px; 
+   font-weight: bold;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate that the tile is clickable */
+   background-color: #e0f7fa; /* Sweet powder blue color */
+    color: #333; /* Dark text color for readability */
+   transition: box-shadow 0.3s ease;
+}
+
+
+.poem-tile:hover {
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
