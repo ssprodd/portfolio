@@ -21,7 +21,6 @@ main {
 nav ul {
   /* ... other styles ... */
   display: flex; /* Enable flexbox for the menu */
-  flex-direction: column; /* Stack items vertically */
   gap: 15px; /* Add space between menu items */
    list-style: none;
   margin: 0;
@@ -29,10 +28,6 @@ nav ul {
   text-align: center;
 }
 
-nav li {
-  display: inline-block;
-  margin: 0 10px;
-}
 
 nav a {
   text-decoration: none;
