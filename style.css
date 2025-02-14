@@ -301,6 +301,12 @@ text-align: left;
   }
 }
 
+.habit-list li {
+  margin-bottom: 5px;
+   list-style: disc;
+  padding-left: 20px;
+}
+
 .contact-container {
     display: flex;
     justify-content: space-between; 
